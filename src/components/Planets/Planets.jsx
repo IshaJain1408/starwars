@@ -68,7 +68,7 @@ const Planets = () => {
   return (
     <>
       {loading ? (
-        <div style={{ color: 'black', textAlign: 'center', paddingTop: '40vh' }}>
+        <div style={{ color: 'white', textAlign: 'center', paddingTop: '40vh',fontSize:"20px" }}>
           <div className="loader"></div>
           Loading...
         </div>
